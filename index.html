@@ -22,6 +22,13 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
+    <!-- Google "Inter" Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -31,28 +38,31 @@
 
 <body>
     <header>
-        <nav>
-            <div>
-                <div>
-                    <a href="#x">Uber</a>
+        <nav class="bg-black text-white py-5">
+            <div class="nav-container flex justify-between">
+                <div class="flex items-center gap-8">
+                    <div>
+                        <a href="#x" class="text-2xl">Uber</a>
+                    </div>
+                    <div>
+                        <ul class="flex">
+                            <li><a href="#x" class="bg-green-500 px-2 py-2">Ride</a></li>
+                            <li><a href="#x" class="bg-green-500 px-2 py-2">Earn</a></li>
+                            <li><a href="#x" class="bg-green-500 px-2 py-2">Business</a></li>
+                            <li><a href="#x" class="bg-green-500 px-2 py-2">Uber Eats</a></li>
+                            <li><a href="#x" class="bg-green-500 px-2 py-2">About <i
+                                        class="fa-solid fa-angle-down"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div>
-                    <ul>
-                        <li><a href="#x">Ride</a></li>
-                        <li><a href="#x">Earn</a></li>
-                        <li><a href="#x">Business</a></li>
-                        <li><a href="#x">Uber Eats</a></li>
-                        <li><a href="#x">About <i class="fa-solid fa-angle-down"></i></a></li>
+                    <ul class="flex">
+                        <li><a href="#x" class="bg-green-500 px-2 py-2"><i class="fa-solid fa-globe"></i> EN</a></li>
+                        <li><a href="#x" class="bg-green-500 px-2 py-2">Help</a></li>
+                        <li><a href="#x" class="bg-green-500 px-2 py-2">Log in</a></li>
+                        <li><a href="#x" class="bg-green-500 px-2 py-2">Sign up</a></li>
                     </ul>
                 </div>
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#x"><i class="fa-solid fa-globe"></i> EN</a></li>
-                    <li><a href="#x">Help</a></li>
-                    <li><a href="#x">Log in</a></li>
-                    <li><a href="#x">Sign up</a></li>
-                </ul>
             </div>
         </nav>
     </header>
