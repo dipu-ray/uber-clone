@@ -17,3 +17,36 @@ body {
     background-color: black;
     width: 245px;
 }
+
+@media screen and (max-width: 1280px) {
+    /* Home image container */
+    .h-img-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* Home location arrow icon */
+    .h-l-arrow {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    /* Two input on home home section */
+    .t-inputs input {
+        width: 100%;
+    }
+
+    /* Home two buttons container */
+    .home-btn-container {
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .login-btn {
+        margin-left: 0;
+    }
+}

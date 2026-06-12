@@ -44,7 +44,7 @@
             <div class="container mx-auto px-5 2xl:px-30 flex justify-between items-center">
                 <div class="flex items-center gap-6">
                     <div>
-                        <a href="#x" class="text-2xl">Uber</a>
+                        <a href="#x" class="text-lg lg:text-2xl">Uber</a>
                     </div>
                     <div>
                         <ul class="flex gap-1">
@@ -95,7 +95,7 @@
                         <span class="font-medium me-1">Dhaka, BD</span>
                         <span class="underline">Change city</span>
                     </a>
-                    <h1 class="text-[3.2rem] font-bold text-base/16 mt-2 mb-7">Go anywhere with <br> Uber</h1>
+                    <h1 class="text-[2.2rem] sm:text-[3.2rem] font-bold text-base/10 sm:text-base/16 mt-2 mb-7">Go anywhere with Uber</h1>
                     <a href="#x"
                         class="bg-black/6 px-4 py-[14px] rounded-full font-medium hover:bg-black/10 duration-100">
                         <i class="fa-solid fa-clock text-lg"></i>
@@ -103,15 +103,17 @@
                         <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <div class="relative">
-                        <div class="flex flex-col mt-9 gap-[15px]">
+                        <div class="flex flex-col mt-9 gap-[15px] t-inputs">
                             <div class="relative">
                                 <div
                                     class="absolute left-[17px] top-5 flex items-center justify-center w-[15px] h-[15px] rounded-full border-[3px] border-black bg-black">
                                     <div class="w-1 h-1 rounded-full bg-white"></div>
                                 </div>
-                                <input class="w-98 bg-black/6 ps-12 py-4 rounded-md" type="text"
-                                    placeholder="Pickup location">
-                                <i class="fa-solid fa-location-arrow absolute right-12 top-5 text-lg"></i>
+                                <div class="relative">
+                                    <input class="w-98 bg-black/6 ps-12 py-4 rounded-md" type="text"
+                                        placeholder="Pickup location">
+                                    <i class="fa-solid fa-location-arrow absolute right-44 top-5 text-lg h-l-arrow"></i>
+                                </div>
                             </div>
                             <div class="absolute bg-black left-[24px] top-8 w-[.5px] h-[60px]"></div>
                             <div>
@@ -124,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-[16px] inline-flex items-center">
+                    <div class="mt-[16px] inline-flex items-center home-btn-container">
                         <a href="#x" class="bg-black text-white px-[23px] py-[12px] rounded-lg">See prices</a>
                         <div class="relative">
                             <a href="#x" class="ms-5 login-btn">Log in to see your recent activity</a>
@@ -132,11 +134,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative">
+                <div class="relative h-img-container">
                     <img class="w-115 rounded-md" src="assets/images/home.png" alt="A Luggage with some assets">
-                    <div class="absolute bottom-5 left-5 bg-white/20 backdrop-blur-xl text-white px-3 py-4 w-105 flex justify-between items-center rounded-xl">
+                    <div
+                        class="absolute bottom-5 left-5 bg-white/20 backdrop-blur-xl text-white px-3 py-4 w-105 flex justify-between items-center rounded-xl">
                         <span>Ready to travel?</span>
-                        <a href="#x" class="bg-white text-black px-4 py-3 rounded-full font-medium duration-200 hover:bg-white/85">Schedule ahead</a>
+                        <a href="#x"
+                            class="bg-white text-black px-4 py-3 rounded-full font-medium duration-200 hover:bg-white/85">Schedule
+                            ahead</a>
                     </div>
                 </div>
             </div>
