@@ -19,6 +19,7 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+
     /* Home image container */
     .h-img-container {
         display: none;
@@ -26,6 +27,7 @@ body {
 }
 
 @media screen and (max-width: 640px) {
+
     /* Home location arrow icon */
     .h-l-arrow {
         right: 20px;
@@ -33,6 +35,7 @@ body {
 }
 
 @media screen and (max-width: 430px) {
+
     /* Two input on home home section */
     .t-inputs input {
         width: 100%;
