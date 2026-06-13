@@ -45,4 +45,14 @@ uber-clone/                 # Project Name
 
 - **Static Functionality Limitations:** Replicating dynamic ride-hailing features like live map routing, vehicle selection highlights, and real-time price estimation using strictly static HTML and Tailwind utility classes without JavaScript.
 - **Handling Vehicle Image Layouts:** Maintaining perfectly uniform vehicle fleet cards in the service selection section when using car renders with varying dimensions and transparent background aspect ratios.
-- **Responsive Navigation Complexity:** Managing Uber's multi-layered header layout (location pickers, ride history, profile menus, and driving toggle) across smaller mobile screens using Tailwind’s arbitrary screen modifiers and flex-box grids.
+- **Responsive Navigation Complexity:** Managing Uber's multi-layered header layout (location pickers, ride history, profile menus, and driving toggle) across smaller mobile screens using Tailwind’s arbitrary screen modifiers and flexbox grids.
+
+---
+
+## 🧠 What I Learned
+
+- Building a visually appealing and intuitive ride-hailing interface.
+- Organizing utility-first CSS classes within a frontend project for high maintainability.
+- Implementing complex multi-item navigation headers using Tailwind CSS flexbox layouts.
+- Designing responsive vehicle fleet grids and service selectors for various screen sizes.
+- Customizing Tailwind themes and utility classes to match Uber's dark and minimal branding.
