@@ -18,6 +18,10 @@ body {
     width: 245px;
 }
 
+.login-btn-2:hover::after {
+    width: 100px;
+}
+
 @media screen and (max-width: 1280px) {
 
     /* Home image container */

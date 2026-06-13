@@ -40,7 +40,7 @@
     <header>
 
         <!-- Navbar -->
-        <nav class="bg-black text-white py-4">
+        <nav class="bg-black text-white py-4 fixed w-full top-0 left-0 z-40">
             <div class="container mx-auto px-5 2xl:px-30 flex justify-between items-center">
                 <div class="flex items-center gap-6">
                     <div>
@@ -87,7 +87,7 @@
         </nav>
 
         <!-- Hero or Home Section -->
-        <section class="my-[60px]">
+        <section class="mt-32 mb-15">
             <div class="flex gap-41 container mx-auto px-5 2xl:px-45">
                 <div>
                     <a href="#x">
@@ -152,13 +152,15 @@
     <main>
         <!-- Explore Section -->
         <section class="container mx-auto px-5 2xl:px-45">
-            <h2 class="text-[1.5rem] sm:text-[2.2rem] font-semibold">Explore what you can do with Uber</h2>
+            <h2 class="text-[1.5rem] sm:text-[2.2rem] font-bold">Explore what you can do with Uber</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 my-6">
                 <div class="bg-black/5 px-4 pt-3 pb-4 flex gap-4 rounded-lg">
                     <div>
                         <h4 class="font-medium text-md">Ride</h4>
-                        <p class="text-[.72rem] mt-2 mb-8 w-50">Go anywhere with Uber. Request a ride, hop in, and go.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <p class="text-[.72rem] mt-2 mb-8 w-50">Go anywhere with Uber. Request a ride, hop in, and go.
+                        </p>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/car.png" alt="Car">
@@ -167,8 +169,10 @@
                 <div class="bg-black/5 px-4 pt-3 pb-4 flex gap-4 rounded-lg">
                     <div>
                         <h4 class="font-medium text-md">Reserve</h4>
-                        <p class="text-[.72rem] mt-2 mb-8 w-50">Reserve your ride in advance so you can relax on the day of your trip.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <p class="text-[.72rem] mt-2 mb-8 w-50">Reserve your ride in advance so you can relax on the day
+                            of your trip.</p>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/calendar.png" alt="Calendar">
@@ -178,7 +182,8 @@
                     <div>
                         <h4 class="font-medium text-md">Intercity</h4>
                         <p class="text-[.72rem] mt-2 mb-8 w-50">Get convenient, affordable outstation cabs anytime.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/intercity.png" alt="Car & Person">
@@ -188,7 +193,8 @@
                     <div>
                         <h4 class="font-medium text-md">Parcel</h4>
                         <p class="text-[.72rem] mt-2 mb-8 w-50">Uber makes same-day item delivery easier than ever.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/courier.png" alt="Delivery Man">
@@ -197,8 +203,10 @@
                 <div class="bg-black/5 px-4 pt-3 pb-4 flex gap-4 rounded-lg">
                     <div>
                         <h4 class="font-medium text-md">Rentals</h4>
-                        <p class="text-[.72rem] mt-2 mb-8 w-50">Request a trip for a block of time and make multiple stops.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <p class="text-[.72rem] mt-2 mb-8 w-50">Request a trip for a block of time and make multiple
+                            stops.</p>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/hourly-car.png" alt="Car">
@@ -207,12 +215,38 @@
                 <div class="bg-black/5 px-4 pt-3 pb-4 flex gap-4 rounded-lg">
                     <div>
                         <h4 class="font-medium text-md">Bike</h4>
-                        <p class="text-[.72rem] mt-2 mb-8 w-50">Get affordable motorbike rides in minutes at your doorstep.</p>
-                        <a href="#x" class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
+                        <p class="text-[.72rem] mt-2 mb-8 w-50">Get affordable motorbike rides in minutes at your
+                            doorstep.</p>
+                        <a href="#x"
+                            class="bg-white px-3 py-2 rounded-full mb-10 text-sm font-medium duration-100 hover:bg-white/20">Details</a>
                     </div>
                     <div class="flex items-center">
                         <img class="w-33" src="assets/explore-images/motorcycle.png" alt="Motorcycle or Bike">
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Login Section -->
+        <section class="container mx-auto my-25 px-5 2xl:px-45">
+            <div class="flex flex-col lg:flex-row justify-between items-center">
+                <div class="lg:w-[38%]">
+                    <h2 class="text-[1.5rem] sm:text-[2.2rem] font-bold text-base/11">Log in to see your account details
+                    </h2>
+                    <p class="text-[1rem] my-6">View past trips, tailored suggestions, support resources, and more.</p>
+                    <div class="flex mt-10">
+                        <div>
+                            <a href="#x" class="bg-black text-white px-[23px] py-[15px] rounded-lg">Log in to your
+                                account</a>
+                        </div>
+                        <div class="relative">
+                            <a href="#x" class="ms-5 login-btn login-btn-2">Create an account</a>
+                            <div class="absolute left-[20px] top-[26px] bg-black/20 w-35 h-[1px]"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/svg/avatar.svg" alt="Avatar Man & Women">
                 </div>
             </div>
         </section>
