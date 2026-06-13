@@ -38,3 +38,11 @@ uber-clone/                 # Project Name
 - 🧭 Clean navigation layout with profile dropdowns and dynamic trip selectors.
 - 🎨 Fully built with HTML, CSS, and Tailwind CSS utility classes.
 - ⚡ Configured with custom Tailwind themes for easy branding updates.
+
+---
+
+## ⚠️ Challenges Faced
+
+- **Static Functionality Limitations:** Replicating dynamic ride-hailing features like live map routing, vehicle selection highlights, and real-time price estimation using strictly static HTML and Tailwind utility classes without JavaScript.
+- **Handling Vehicle Image Layouts:** Maintaining perfectly uniform vehicle fleet cards in the service selection section when using car renders with varying dimensions and transparent background aspect ratios.
+- **Responsive Navigation Complexity:** Managing Uber's multi-layered header layout (location pickers, ride history, profile menus, and driving toggle) across smaller mobile screens using Tailwind’s arbitrary screen modifiers and flex-box grids.
