@@ -14,3 +14,17 @@ A modern and responsive Uber clone built using only **HTML**, **CSS**, and **Tai
 | HTML       | Structure and content |
 | CSS        | Styling and layout    |
 | Bootstrap  | Utility-First         |
+
+---
+
+## 📁 Project Structure
+
+```text
+uber-clone/                 # Project Name
+├── assets/                 # Non-Code Files
+│   ├── explore-images/     # Explore Section Images
+│   ├── images/             # Base Images
+├── README.md               # Project Documentations
+├── index.html              # HTML Codes + Tailwind CSS Codes
+└── style.css               # CSS Codes
+```
