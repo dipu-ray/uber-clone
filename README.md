@@ -90,3 +90,12 @@ uber-clone/                 # Project Name
 You can check out the live preview of this project by clicking the link below:
 
 ▶️ [Live Preview - Upcoming]()
+
+---
+
+<div align="center">
+
+Made with ❤️ and Tailwind CSS <br>
+⭐ If you like this project, feel free to give it a star!
+
+</div>
