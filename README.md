@@ -75,3 +75,10 @@ uber-clone/                 # Project Name
     <h4>3. Laptop or Desktop Screen:</h4>
     <img src="./assets/project-screenshots/laptop.png" width="600" alt="Uber Clone project screenshot - Laptop or Desktop screen">
 </p>
+
+---
+
+## 🙌 Acknowledgements
+
+- Inspired by the Uber UI.
+- Built as a frontend practice project using HTML, CSS and Tailwind CSS.
