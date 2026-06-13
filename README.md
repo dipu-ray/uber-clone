@@ -28,3 +28,13 @@ uber-clone/                 # Project Name
 ├── index.html              # HTML Codes + Tailwind CSS Codes
 └── style.css               # CSS Codes
 ```
+
+## ✨ Features
+
+- 📱 Fully responsive ride-hailing and delivery interface.
+- 🗺️ Interactive hero section with a pickup and drop-off location form.
+- 🚗 Multi-category vehicle grids (UberX, XL, Comfort) and service options.
+- 💫 Smooth Tailwind transitions and hover states on interactive maps and cards.
+- 🧭 Clean navigation layout with profile dropdowns and dynamic trip selectors.
+- 🎨 Fully built with HTML, CSS, and Tailwind CSS utility classes.
+- ⚡ Configured with custom Tailwind themes for easy branding updates.
