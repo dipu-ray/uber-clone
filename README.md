@@ -56,3 +56,22 @@ uber-clone/                 # Project Name
 - Implementing complex multi-item navigation headers using Tailwind CSS flexbox layouts.
 - Designing responsive vehicle fleet grids and service selectors for various screen sizes.
 - Customizing Tailwind themes and utility classes to match Uber's dark and minimal branding.
+
+---
+
+## 🖼️ Screenshot
+
+<p align="center">
+    <h4>1. Phone Screen:</h4>
+    <img src="./assets/project-screenshots/phone.png" width="300" alt="Uber Clone project screenshot - Phone screen">
+</p>
+
+<p align="center">
+    <h4>2. Tab Screen:</h4>
+    <img src="./assets/project-screenshots/tab.png" width="400" alt="Uber Clone project screenshot - Tab screen">
+</p>
+
+<p align="center">
+    <h4>3. Laptop or Desktop Screen:</h4>
+    <img src="./assets/project-screenshots/laptop.png" width="600" alt="Uber Clone project screenshot - Laptop or Desktop screen">
+</p>
