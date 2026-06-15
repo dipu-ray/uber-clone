@@ -54,6 +54,10 @@ body {
     }
 
     .login-btn {
-        margin-left: 0;
+        margin-left: 3px;
+    }
+
+    .login-pos {
+        left: 0;
     }
 }
