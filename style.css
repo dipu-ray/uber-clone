@@ -22,6 +22,10 @@ body {
     width: 140px;
 }
 
+.plan-r-container {
+    background: #9cced6 url('assets/images/plan-bg.png') no-repeat right center;
+}
+
 @media screen and (max-width: 1280px) {
 
     /* Home image container */
