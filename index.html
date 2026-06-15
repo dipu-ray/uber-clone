@@ -254,19 +254,26 @@
         <!-- Plan Section -->
         <section class="container mx-auto my-20 px-5 2xl:px-45 pt-4">
             <h2 class="text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11">Plan for later</h2>
-            <div class="mt-5 flex gap-10">
-                <div class="w-[68%] px-8 plan-r-container">
-                    <h3 class="py-15">Get your ride right with Uber Reserve</h3>
-                    <div>
-                        <h4>Choose date and time</h4>
-                        <div>
-                            <div>
+            <div class="mt-8 flex gap-10">
+                <div class="w-[68%] px-8 rounded-xl plan-r-container">
+                    <h3 class="pt-18 text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11 w-[50%]">Get your ride right with Uber Reserve</h3>
+                    <div class="mt-10 mb-10">
+                        <h4 class="text-lg font-medium">Choose date and time</h4>
+                        <div class="flex my-2 gap-2">
+                            <div class="flex flex-col">
                                 <label for="date">Date</label>
-                                <input type="text">
+                                <div class="relative">
+                                    <i class="fa-solid fa-calendar absolute top-0 left-10"></i>
+                                    <input class="bg-white" type="text" placeholder="June 16">
+                                </div>
                             </div>
-                            <div>
+                            <div class="flex flex-col">
                                 <label for="time">Time</label>
-                                <input type="text">
+                                <div class="relative">
+                                    <i class="fa-solid fa-clock absolute top-0 left-10"></i>
+                                    <input class="bg-white" type="text" placeholder="1:30 AM">
+                                    <i class="fa-solid fa-sort-down absolute top-0 right-10"></i>
+                                </div>
                             </div>
                         </div>
                         <a href="#x">Next</a>
