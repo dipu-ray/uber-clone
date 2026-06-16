@@ -255,14 +255,16 @@
         <!-- Plan Section -->
         <section class="container mx-auto my-20 px-5 2xl:px-45 pt-4">
             <h2 class="text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11">Plan for later</h2>
-            <div class="mt-8 flex gap-10">
-                <div class="w-[68%] px-8 rounded-xl plan-r-container">
-                    <h3 class="pt-18 text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11 w-[50%]">Get
+            <div class="mt-8 flex flex flex-col lg:flex-row gap-10 lg:gap-10">
+                <div class="w-[100%] lg:w-[68%] px-8 rounded-xl plan-r-container">
+                    <h3
+                        class="pt-18 text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11 w-[100%] sm:w-[50%]">
+                        Get
                         your ride right with Uber Reserve</h3>
-                    <div class="mt-8 mb-10 w-[50%]">
+                    <div class="mt-8 mb-10 w-[100%] md:w-[50%]">
                         <h4 class="text-lg font-medium">Choose date and time</h4>
-                        <div class="flex my-2 gap-2 mb-6">
-                            <div class="flex flex-col w-[50%]">
+                        <div class="flex my-2 gap-2 mb-6 ps-i-container">
+                            <div class="flex flex-col w-[50%] ps-i-c-sub">
                                 <label class="text-sm text-black/50" for="date">Date</label>
                                 <div class="relative">
                                     <i class="fa-solid fa-calendar absolute top-[50%] translate-y-[-50%] left-4"></i>
@@ -270,7 +272,7 @@
                                         placeholder="June 16">
                                 </div>
                             </div>
-                            <div class="flex flex-col w-[50%]">
+                            <div class="flex flex-col w-[50%] ps-i-c-sub">
                                 <label class="text-sm text-black/50" for="time">Time</label>
                                 <div class="relative">
                                     <i
@@ -286,7 +288,7 @@
                             class="inline-block text-center bg-black text-white py-[12px] rounded-lg w-[100%] font-medium duration-100 hover:bg-black/80">Next</a>
                     </div>
                 </div>
-                <div class="w-[32%] mt-3">
+                <div class="w-[100%] lg:w-[32%] mt-3">
                     <h3 class="font-bold text-lg">Benefits</h3>
                     <div class="my-8 mx-7 flex flex-col gap-6">
                         <div class="flex items-center gap-5">
@@ -309,6 +311,30 @@
                 </div>
             </div>
         </section>
+
+        <!-- Next Gateway Section -->
+        <section class="container mx-auto my-25 px-5 2xl:px-45">
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 justify-between items-center">
+                <div class="w-[100%] lg:w-[50%]">
+                    <h2 class="text-[1.9rem] sm:text-[2.2rem] font-bold text-base/8 sm:text-base/11 w-[100%] lg:w-[75%]">
+                        Planning your next getaway?
+                    </h2>
+                    <p class="text-[1rem] mt-6 mb-8 w-[100%] lg:w-[90%]">
+                        From weekend road trip to international destination, we've got you covered. Explore transport
+                        options, points of interest, and more with our new City Hub.
+                    </p>
+                    <a href="#x" class="bg-black text-white text-sm px-[23px] py-[15px] rounded-full inline-flex gap-2 items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Dhaka</span>
+                        <i class="fa-solid fa-angle-down text-[.5rem]"></i>
+                    </a>
+                </div>
+                <div class="w-[100%] lg:w-[50%]">
+                    <img src="assets/images/next-g-bg.webp" alt="Avatar City">
+                </div>
+            </div>
+        </section>
+
     </main>
 
 </body>

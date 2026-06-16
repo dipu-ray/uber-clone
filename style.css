@@ -40,6 +40,11 @@ body {
     .h-l-arrow {
         right: 20px;
     }
+
+    /* Plan section background image */
+    .plan-r-container {
+        background: #9cced6;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -63,5 +68,14 @@ body {
 
     .login-pos {
         left: 0;
+    }
+
+    /* Plan section input container */
+    .ps-i-container {
+        flex-direction: column;
+    }
+
+    .ps-i-c-sub {
+        width: 100%;
     }
 }
