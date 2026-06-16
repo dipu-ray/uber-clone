@@ -13,19 +13,28 @@ body {
     transition: all ease-out .2s;
 }
 
+/* Hero or Home Section */
 .login-btn:hover::after {
     background-color: black;
     width: 245px;
 }
 
+/* Login Section */
 .login-btn-2:hover::after {
     width: 140px;
 }
 
+/* Drive Section */
 .login-btn-3:hover::after {
     width: 251px;
 }
 
+/* Business Section */
+.login-btn-4:hover::after {
+    width: 176px;
+}
+
+/* To add background into Plan Section */
 .plan-r-container {
     background: #9cced6 url('assets/images/plan-bg.png') no-repeat right center;
 }
