@@ -44,6 +44,22 @@ body {
     right: 20px;
 }
 
+/* Footer */
+.f-vhc-btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 30px;
+    height: 2px;
+    width: 126px;
+    background-color: white;
+    opacity: 0;
+    transition: all ease-out .3s;
+}
+
+.f-vhc-btn:hover::after {
+    opacity: 1;
+}
 
 @media screen and (max-width: 1280px) {
 
