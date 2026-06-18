@@ -20,14 +20,15 @@ A modern and responsive Uber clone built using only **HTML**, **CSS**, and **Tai
 ## 📁 Project Structure
 
 ```text
-uber-clone/                 # Project Name
-├── assets/                 # Non-Code Files
-│   ├── explore-images/     # Explore Section Images
-│   ├── images/             # Base Images
-│   ├── svg/                # SVG Files or Images
-├── README.md               # Project Documentations
-├── index.html              # HTML Codes + Tailwind CSS Codes
-└── style.css               # CSS Codes
+uber-clone/                     # Project Name
+├── assets/                     # Non-Code Files
+│   ├── explore-images/         # Explore Section Images
+│   ├── images/                 # Base Images
+│   ├── project-screenshots/    # Uber Clone Demo
+│   ├── svg/                    # SVG Files or Images
+├── README.md                   # Project Documentations
+├── index.html                  # HTML Codes + Tailwind CSS Codes
+└── style.css                   # CSS Codes
 ```
 
 ## ✨ Features
@@ -90,7 +91,7 @@ uber-clone/                 # Project Name
 
 You can check out the live preview of this project by clicking the link below:
 
-▶️ [Live Preview - Upcoming]()
+▶️ [Live Preview](https://dipu-ray.github.io/uber-clone/)
 
 ---
 
