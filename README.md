@@ -24,6 +24,7 @@ uber-clone/                 # Project Name
 ├── assets/                 # Non-Code Files
 │   ├── explore-images/     # Explore Section Images
 │   ├── images/             # Base Images
+│   ├── svg/                # SVG Files or Images
 ├── README.md               # Project Documentations
 ├── index.html              # HTML Codes + Tailwind CSS Codes
 └── style.css               # CSS Codes
