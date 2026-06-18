@@ -9,11 +9,11 @@ A modern and responsive Uber clone built using only **HTML**, **CSS**, and **Tai
 
 ## 🛠️ Technologies Used
 
-| Technology | Usage                 |
-| ---------- | --------------------- |
-| HTML       | Structure and content |
-| CSS        | Styling and layout    |
-| Bootstrap  | Utility-First         |
+| Technology   | Usage                 |
+| ------------ | --------------------- |
+| HTML         | Structure and content |
+| CSS          | Styling and layout    |
+| Tailwind CSS | Utility-First         |
 
 ---
 
